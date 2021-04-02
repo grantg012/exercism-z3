@@ -12,7 +12,8 @@ def toFloat(x: z3.RatNumRef) -> float:
 
 class LidarTest(unittest.TestCase):
     def test1(self):
-        pos = lidar(10, [5.584846, 3.724622, 7.000767])
+        # pos = lidar(10, [5.584846, 3.724622, 7.000767])
+        pos = lidar(10, [10, 10, 10])
         print(pos)
 
 def main():
